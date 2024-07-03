@@ -1,6 +1,6 @@
 # Getting started
 
-In the project directory, you should run the following commands to get started:
+In the project directory, please run the following commands to get started:
 
 ```bash
 npm install
