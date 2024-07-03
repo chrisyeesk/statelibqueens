@@ -4,7 +4,7 @@ export function ContentType1({ image }) {
       <div className="absolute w-full h-full flex top-0 left-0">
         <div className="h-full items-center flex w-2/5 bg-[#F7F7F7] shadow-2xl">
           <div className="w-full 2xl:px-20 pl-8 pr-3 sm:px-14 z-20 text-black">
-            <h1 className="text-2xl lg:text-3xl xl:text-4xl font-bold mb-3 lg:mb-5">
+            <h1 className="text-xl lg:text-3xl xl:text-4xl font-bold mb-3 lg:mb-5">
               {image.title}
             </h1>
             <p className="lg:text-md xl:text-lg 2xl:text-xl text-sm mb-4 lg:mb-6">{image.description}</p>
@@ -41,7 +41,7 @@ export function ContentType2({ image }) {
       </div>
 
       <div className="absolute w-1/3 top-1/2 -translate-y-1/2 right-12 sm:right-16 z-20 text-white">
-        <h1 className="text-2xl lg:text-3xl xl:text-4xl font-bold mb-3 lg:mb-6">{image.title}</h1>
+        <h1 className="text-xl lg:text-3xl xl:text-4xl font-bold mb-3 lg:mb-6">{image.title}</h1>
         <p className="lg:text-md xl:text-lg 2xl:text-xl text-sm mb-5 lg:mb-7">{image.description}</p>
         <a
           href={image.link}
@@ -70,7 +70,7 @@ export function ContentType3({ image }) {
 
       <div className="absolute w-full h-full flex items-center justify-center z-20 text-white px-4">
         <div className="text-center justify-center w-1/2">
-          <h1 className="text-2xl lg:text-3xl xl:text-4xl font-bold mb-3 lg:mb-5">{image.title}</h1>
+          <h1 className="text-xl lg:text-3xl xl:text-4xl font-bold mb-3 lg:mb-5">{image.title}</h1>
           <p className="lg:text-md xl:text-lg 2xl:text-xl text-sm mb-5 mx-auto lg:mb-6">{image.description}</p>
           <a
             href={image.link}
